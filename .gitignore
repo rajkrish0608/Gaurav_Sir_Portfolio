@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+portfolio/node_modules/
+
+# Production builds
+dist/
+portfolio/dist/
+
+# Cache & Build Artifacts
+*.tsbuildinfo
+portfolio/tsconfig.tsbuildinfo
+.eslintcache
+
+# Video and Raw Frames (Extracted WebP assets are stored in portfolio/public/frames)
+full_frames/
+*.mp4
+
+# Temporary Scratch & Testing Artifacts
+scratch/
+portfolio/scratch/
+test_*.png
+verify_*.png
+mask_*.png
+scratch_*.png
+raw_frame_*.png
+portfolio/scratch_*.png
+portfolio/raw_frame_*.png
+portfolio/screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+
+# Cache & Build Artifacts
+*.tsbuildinfo
+.eslintcache
+
+# Scratch & Testing Artifacts
+scratch/
+scratch_*.png
+raw_frame_*.png
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
